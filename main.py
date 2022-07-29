@@ -32,7 +32,7 @@ for path in os.listdir(dir_path):
     # check if current path is a file
     if os.path.isfile(os.path.join(dir_path, path)):
         count += 1
-print('File count:', count)
+print('File count:', count) 
 
 for jk in range(count):
     aud_1='music/' + str(jk) + '.mp3'
